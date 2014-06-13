@@ -1,0 +1,2 @@
+^\s*(\w+)\s+\g1\s*$ -> $1	
+(co.cou) -> change if 1 is obj
