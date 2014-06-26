@@ -1,0 +1,17 @@
+init add test is object
+
+{ -> { PR SO ( IN SC ) PO
+\[ -> \[ PR SO ( IN SC ) PO
+{ -> { PR function SO ( IN .+ SC ) PO tr
+{ -> { PR SO [ IN SC ] PO
+#\[ -> \[ PR SO ( IN SC ) PO
+#\[ -> \[ PR SO ( IN "." SC ) PO
+#\[ -> \[ PR SO ( IN SC ) PO
+
+#{ -> { PR function SO ( IN .+ SC ) PO tr
+#example of rules
+(\w+)\s+\g1 -> "\u$1 $1"
+#(co.cou) -> change if 1 is obj
+#(\.([A-Z]\w*)) -> $1 add $2 is attribute 
+#\.(([A-Z])(\w*)) -> \.\l$2$3 if $1 is attribute act ask add $1 isnot test
+
