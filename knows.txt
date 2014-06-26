@@ -1,3 +1,0 @@
-machin != hfh
-coucou  = obj
-coucous  = obj

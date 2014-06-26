@@ -1,6 +1,0 @@
-#example of rules
-(\w+)\s+\g1 -> "\u$1 $1"
-#(co.cou) -> change if 1 is obj
-
-
-
